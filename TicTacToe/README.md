@@ -60,7 +60,7 @@ Win Streak: 4
 
 === player 1: 5047 | player 2: 4860 | Draws: 93 ===
 
-## Additional Files
+## Files
 * Mark.java, BoardStatus.java - enums, explained in the files.
 * RandomStrategy.java - as stated in the file, the class implements a single method
 that describes a random strategy where you choose a cell uniformly between all
