@@ -19,6 +19,10 @@ The game consists of:
 
 ## Input
 The input for the program is of the form:
+``` 
+  java Tournament [number-of-rounds] [render-target: **console/none**] [player: **human/clever/whatever/snartypamts**]
+```
+The input is given through the command line.
 
 ========== The Strategy of Mr.SnartyPamts Player ==========
 The strategy of Mr.SnartyPamts is just picking the last cell which can make
