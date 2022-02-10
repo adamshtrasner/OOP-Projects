@@ -6,7 +6,7 @@ A Java implementation of the famous Tic Tac Toe game.
 * [Input](#input)
 * [Strategies](#strategies)
 * [Examples](#examples)
-* [Additional-Files](#additionalfiles)
+* [AdditionalFiles](#additionalfiles)
 
 ## Description
 The game consists of:
