@@ -6,7 +6,6 @@ A Java implementation of the famous Tic Tac Toe game.
 * [Input](#input)
 * [Strategies](#strategies)
 * [Examples](#examples)
-* [Files](#files)
 
 ## Description
 The game consists of:
@@ -59,13 +58,3 @@ Win Streak: 4
 ### 10000 games Tournament Example Between 2 Whatever Players 
 
 === player 1: 5047 | player 2: 4860 | Draws: 93 ===
-
-## Files
-* Mark.java, BoardStatus.java - enums, explained in the files.
-* RandomStrategy.java - as stated in the file, the class implements a single method
-that describes a random strategy where you choose a cell uniformly between all
-empty cells. The reason for constructing such a class is to prevent code repetition
-when using the same tactic both with snartypamts and whatever players.
-Instead, RandomStrategy is an abstract class that can only be used through inheritance -
-both of those classes (SnartypamtsPlayer and WhateverPlayer) inherit from
-RandomStrategy and then they can use the random tactic discussed above.
