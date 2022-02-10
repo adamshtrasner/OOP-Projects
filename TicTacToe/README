@@ -1,3 +1,12 @@
+# Spreader-Detector
+A C implementation of a program which evaluates the likelihood of a person getting infected by the corona virus, according to a given data.
+
+## Table of contents
+* [Description](#description)
+* [Input](#input)
+* [Output](#output)
+* [Examples](#examples)
+
 adam.shtrasner
 208837260
 
