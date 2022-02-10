@@ -1,5 +1,24 @@
-========== How to Play ==========
+# Tic-Tac-Toe
+A Java implementation of the famous tic tac toe game.
 
+## Table of contents
+* [Description](#description)
+* [Input](#input)
+* [Output](#output)
+* [Examples](#examples)
+
+## Description
+The game consists of:
+* a SIZE x SIZE board, where SIZE can range from 2 to 7.
+* In order to win, a player must have a squence of O's or X's (depends on the mark with which the player plays) of size WIN_STREAK.
+* There are 2 players. The players can be either humans or AI.
+  There are 3 types of AI players: Mr.Whatever, Ms.Clever and Mr.SnartyPamts, which 
+  their strategies are explained below.
+* The game is over when there is a sequence of O's or X's of size WIN_STREAK, or 
+  the board is full (tie).
+
+## Input
+The input for the program is of the form:
 
 ========== The Strategy of Mr.SnartyPamts Player ==========
 The strategy of Mr.SnartyPamts is just picking the last cell which can make
