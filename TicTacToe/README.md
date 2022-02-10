@@ -1,5 +1,5 @@
 # Tic-Tac-Toe
-A Java implementation of the famous tic tac toe game.
+A Java implementation of the famous Tic Tac Toe game.
 
 ## Table of contents
 * [Description](#description)
