@@ -1,7 +1,7 @@
 The Bricker Game is constructed from:
 
 src package:
-(*) The main game's manager
+(*) The main game's manager, package: gamemanager
 (*) The objects of the game, package: gameobjects
 (*) The strategies of the collision between the ball and the bricks, package: brick_strategies
 
