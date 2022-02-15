@@ -2,13 +2,17 @@
 A Java implementation of a programm which converts image files into ASCII.
 
 ## Table of contents
+* [Input](#input)
+* [Output](#output)
+* [Algorithms](#algorithms)
 
+## Input
 
-#########################################################################
-########################## The algorithms part ##########################
-#########################################################################
+## Output
 
-====== (1) findDuplicate ======
+## Algorithms
+
+### findDuplicate 
 The idea: I referred to each value of the given array as an index, that is - I cycled through
 the array according to each numList[i]. The oneStep variable goes one step, and the
 twoStep variable goes two steps. In this way, detecting a cycle in the array is equivalent
@@ -16,7 +20,7 @@ to detecting the duplicate number in the array. Due to the pigeon hole principle
 is promised, and the oneStep variable and twoStep variable would meet, and we will
 find the duplicate.
 
-====== (2) uniqueMorseRepresentations ======
+### uniqueMorseRepresentations 
 I stored each morse code to its corresponding alpha-bet letter in a hash map.
 Then, I used a set and added all morse coded words to it. Due to the fact
 that the data structure is a set, duplicate words will not be inserted into it,
