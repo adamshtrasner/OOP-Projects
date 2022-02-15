@@ -1,8 +1,7 @@
-adam.shtrasner
-208837260
+# ASCII Art
+A Java implementation of a programm which converts image files into ASCII.
 
-====== Implementation of matching between the pixel and its corresponding brightness ======
-I used hash map to store the brightness of each character. Stored in charToBrightness.
+## Table of contents
 
 
 #########################################################################
