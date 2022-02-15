@@ -4,7 +4,6 @@ A Java implementation of an "Arkanoid" like game.
 ## Table of contents
 * [Structure](#structure)
 * [Designs](#designs)
-* [Strategies](#strategies)
 * [Algorithms](#algorithms)
 
 ## Structure
