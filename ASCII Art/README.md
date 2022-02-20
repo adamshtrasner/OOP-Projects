@@ -1,11 +1,11 @@
 # ASCII Art
 A Java implementation of a programm which converts image files into ASCII.
-![A Test Image](dino.png)
 
 ## Table of contents
 * [Description](#description)
 * [Input](#input)
 * [Output](#output)
+* [Example](#example)
 * [Algorithms](#algorithms)
 
 ## Description
@@ -24,6 +24,13 @@ When running the program, '>>>' will appear in the command line. The possible in
 * exit - exits the program 
 
 ## Output
+
+## Example
+Original Image:
+![A Test Image](dino.png)
+
+ASCII representation:
+
 
 ## Algorithms
 
