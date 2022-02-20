@@ -30,7 +30,7 @@ Original Image:
 ![A Test Image](dino.png)
 
 ASCII representation:
-
+![A Test Image](dino_ascii.png)
 
 ## Algorithms
 
