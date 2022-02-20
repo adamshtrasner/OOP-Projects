@@ -1,6 +1,6 @@
 # Bricker
 A Java implementation of an "Arkanoid" like game.
-![Bricker Image]()
+![Bricker Image](bricker_example.png)
 
 
 ## Table of contents
