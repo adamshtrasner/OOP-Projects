@@ -1,5 +1,7 @@
 # Bricker
 A Java implementation of an "Arkanoid" like game.
+![Bricker Image]()
+
 
 ## Table of contents
 * [Structure](#structure)
