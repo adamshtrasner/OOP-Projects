@@ -7,6 +7,14 @@ A Java implementation of a programm which converts image files into ASCII.
 * [Algorithms](#algorithms)
 
 ## Input
+When running the program, '>>>' will appear in the command line. The possible inputs of the programm are:
+* add command:
+  - add a
+  - add all
+  - add space
+  - add m-p
+* remove commands, handled the same way as "add"
+* exit - exits the program 
 
 ## Output
 
