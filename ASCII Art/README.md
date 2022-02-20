@@ -1,5 +1,6 @@
 # ASCII Art
 A Java implementation of a programm which converts image files into ASCII.
+![A Test Image](dino.png)
 
 ## Table of contents
 * [Description](#description)
