@@ -2,14 +2,20 @@
 A Java implementation of a programm which converts image files into ASCII.
 
 ## Table of contents
+* [Description](#description)
 * [Input](#input)
 * [Output](#output)
 * [Algorithms](#algorithms)
 
+## Description
+The program holds a character set, which in default has the character 0 to 9, and the
+programm will build an ASVII representation of a given image, according to the character set
+and the resolution. 
+
 ## Input
 When running the program, '>>>' will appear in the command line. The possible inputs of the programm are:
-* add command:
-  - add a
+* add commands:
+  - add a - adds a letter to the character set
   - add all
   - add space
   - add m-p
