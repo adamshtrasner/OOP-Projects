@@ -1,5 +1,6 @@
 # PEPSE: Precise Environmental Procedural Simulator Extraordinaire
 A Java implementation of a simulator, which simulates reality life.
+![pepse](pepse.png)
 
 ## Authors
 Adam Shtrasner
