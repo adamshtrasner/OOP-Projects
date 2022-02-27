@@ -3,6 +3,7 @@ A Java implementation of a simulator, which simulates reality life.
 
 ## Authors
 Adam Shtrasner
+
 Noam Alterman
 
 ## Explanation of the creation of the endless world -
