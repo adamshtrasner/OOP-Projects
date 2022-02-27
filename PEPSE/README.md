@@ -6,7 +6,7 @@ Adam Shtrasner
 
 Noam Alterman
 
-## Explanation of the creation of the endless world -
+## Explanation of the creation of the endless world 
 
 We created a hash map where the key is an x coordinate and the value is ArrayList
 of GameObject. For the terrain, each value corresponds to columns of blocks,
