@@ -1,22 +1,11 @@
-adam.shtrasner
-noamalt
+# PEPSE: Precise Environmental Procedural Simulator Extraordinaire
+A Java implementation of a simulator, which simulates reality life.
 
-|---------- Explanation of the differences between the UMLs ---------|
+## Authors
+Adam Shtrasner
+Noam Alterman
 
-In the initial UML:
-(1) We didn't create any Noise Generator.
-(2) Sky extended GameObject.
-(3) We defined an interface called DayNight, where Sun, SunHalo and Night implement
-them, with a method called create.
-
-In the final UML:
-(1) We created the Noise Generator which the terrain aggregated.
-(2) Sky does not extend GameObject, but stands by itself and has a "create" method
-that creates a local GameObject variable.
-(3) We implemented Sun, SunHalo and Night in the same way as Sky.
-
-
-|--------- Explanation of the creation of the endless world ---------|
+## Explanation of the creation of the endless world -
 
 We created a hash map where the key is an x coordinate and the value is ArrayList
 of GameObject. For the terrain, each value corresponds to columns of blocks,
@@ -31,7 +20,7 @@ array list and removed the gameobjects from the gameObjects collection and then 
 the pair from the hash map.
 
 
-|----------------- Explanation of the trees module ------------------|
+## Explanation of the trees module 
 
 The trees module consists of two classes: Tree and Leaf.
 We chose to divide the module into 2 different classes
