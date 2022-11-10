@@ -6,6 +6,7 @@ A Java implementation of an "Arkanoid" like game.
 ## Table of contents
 * [Structure](#structure)
 * [Designs](#designs)
+* [Instructions](#instructions)
 * [Algorithms](#algorithms)
 
 ## Structure
@@ -125,6 +126,8 @@ it randomly chooses 2 behaviours, including the multiple strategy. If
 one of them is indeed the multiple strategy itself, it randomly chooses 2 more strategies,
 but there will not be more than 3 strategies to a single brick.
 
+## Instructions
+Run the main program - BrickerGameManager.java in the gamemanager file and enjoy!
 
 ## Algorithms
 * package: algo_questions
