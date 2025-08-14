@@ -7,7 +7,6 @@ A Java implementation of an "Arkanoid" like game.
 * [Structure](#structure)
 * [Designs](#designs)
 * [Instructions](#instructions)
-* [Algorithms](#algorithms)
 
 ## Structure
 The Bricker Game is constructed from:
@@ -129,43 +128,3 @@ but there will not be more than 3 strategies to a single brick.
 ## Instructions
 Run the main program - BrickerGameManager.java in the gamemanager file and enjoy!
 
-## Algorithms
-* package: algo_questions
-* The first 2 solutions use a greedy principle.
-* the last 2 solutions use dynamic programming.
-
-### alotAtudyTime 
-* I first sorted both arrays, expected runtime: O(max(n,m)*log(max(n,m))
-* Reversed the arrays so that their values would be sorted from high to low,
-runtime: (O(max(n,m))
-* The greedy principle: Iterated over all tasks by order and
-taking a time slot each time it's possible. runtime O(max(n,m)).
-
-* total expected runtime O(max(n,m)*log(max(n,m)).
-w.c runtime O(max(n,m)^2) (depends on the runtime of the sort function of Array).
-
-### minLeap 
-* The greedy principle:
-at each leaf we currently in,
-we'll choose the next leaf from which we can jump to the furthest
-leaf from.
-
-* w.c O(n^2) where n is the number of leaves.
-
-### bucketWalk 
-* I created an array of size n + 2 so that there wouldn't be
-exceptions when inserting 1's in the first 2 entries of the array,
-and so that it will be convenient.
-* To fill i liters of water we add the number of ways to fill
-(i - 1) and (i - 2) liters. That is, the solution for this question is the fibonacci numbers.
-* the solution is the n'th entry of the array.
-
-* runtime: O(n), filling a 1 dimensional array.
-
-### numTrees 
-* Explanation for the filling of the table:
-if the node with key j is the root, j - 1 numbers will be
-at the left subtree, and n - j will be in the right subtree.
-Summation of the product between (j - 1) and (n - j) will give the answer.
-
-* runtime: O(n^2)
